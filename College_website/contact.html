@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="FontAwesome/css/all.min.css" >
+    
+    <!-- integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous"> -->
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/tit logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>  Contact Us</h1>
+
+    </section>
+    <!-- ------about us content------ -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.175874384664!2d-71.09634868506821!3d42.36009097918684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370aaf51a6a87%3A0xd0e08ea5b308203c!2sMassachusetts%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1661053369265!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                  <i class="fa fa-home"></i>
+                  <span>
+                    <h5>77 Massachusetts Ave, Cambridge, MA 02139</h5><p> United States</p>
+                  </span>  
+                </div>
+            
+            
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                      <h5>+16172531000</h5><p> Monday to Saturday, 10AM to 6PM</p>
+                    </span>  
+                  </div>
+            
+            <div>
+                <i class="fa fa-envelope-open"></i>
+                <span>
+                  <h5>aashuakm12@gmail.com</h5><p> Email us for any query </p>
+                </span>  
+              </div>
+        </div>
+        
+            
+            <div class="contact-col">
+                <form action="form_handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject"required>
+                    <textarea rows="8"  name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <!-- -----foooter---- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            MIT is one of the prestigious college of Science and Technology and no need to give the proof of it.
+        </p>
+        <div class="icons">
+        <i class="fa-brands fa-meta"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with<i class="fa-solid fa-heart"></i> by Ashutosh</p>
+    </section>
+
+
+
+    <!-- -javascript for toggle menu -->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
