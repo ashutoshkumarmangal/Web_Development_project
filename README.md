@@ -145,5 +145,14 @@ A simple file downloader application built using HTML, CSS, and JavaScript.
 - CSS
 - JavaScript
 
+## Projects
+  <a href="https://tit-bhiwani.netlify.app/" target="blank">College Website</a></br>
+  <a href="https://weatherreportlive.netlify.app/" target="blank">Weather App</a></br>
+  <a href="https://todolistmobile.netlify.app/" target="blank">To Do List</a></br>
+  <a href="https://instantqrcodegenerator.netlify.app/" target="blank">QR Code Generator</a></br>
+  <a href="https://instantqrcodescanner.netlify.app/" target="blank">QR Code Scanner</a></br>
+  <a href="https://countdowntimer799.netlify.app/" target="blank">CountDown Timer</a></br>
+
+   
 # Author 
 ## Ashutosh Kumar Mangal
